@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+
+
+
+/* -------------------- VARIABLES */
+
+:root {
+    --font-default: Raleway, sans-serif;
+
+    --font-heading: "Oranienbaum", cursive;
+
+      /* Colors */
+  --color-green: #084e3f;
+  --color-red: #ff5b5e;
+  --color-deep-blue: #28313b;
+  --color-light-grey: #97a4b1;
+  --color-mid-blue: #34495e;
+  --color-almost-white: #e8eef4;
+
+  /* abstract colors out */
+  --main-text-color: var(--color-mid-blue);
+  --strong-text-color: var(--color-deep-blue);
+  --alternative-text-color: var(--color-almost-white);
+  --error-color: var(--color-red);
+  --border-color: var(--color-light-grey);
+
+  --secondary-bg-color: var(--color-almost-white);
+  --alternative-bg-color: var(--color-green);
+
+ /* measurements*/
+  --padder: 3%;
+  --spacer: 20px;
+  --spacer-large: 60px;
+  --transition-time: 0.3s;
+
+  --area-wide: 1200px;
+
+/* font sizes */
+  --font-size-site-title: 32px;
+  --font-size-page-title: 40px;
+  --font-size-section-title: 30px;
+  --font-size-sub-title: 24px;
+  --font-size-heading-small: 16px;
+
+}
+
+@media screen and (min-width: 800px) {
+    :root {
+      --font-size-site-title: 54px;
+      --font-size-page-title: 80px;
+      --font-size-section-title: 48px;
+  
+      --padder: 2%;
+    }
+
+  }   
+/* -------------------- GLOBAL DEFAULTS */
+
+* {
+    box-sizing: border-box;
+  }
+
+
 body {
 	background-color : white;
 	background-image : url(pics/studiodesk2.jpg);
@@ -49,7 +112,11 @@ a {
 }*/
 
 h1 {
-	color: black;
+	color: rgb(6, 140, 163);
+	font-family: Oranienbaum, cursive;
+	font-size: 60px;
+	line-height: 1.8;
+	font-weight: lighter
 	}
 	
 h2{
@@ -110,3 +177,98 @@ p{
 	line-height:1.5em;
 	font-size:1.5em;
 }
+
+
+
+@media screen and (min-width: 800px) {
+	.hero-module {
+	  position: relative;
+	}
+  
+	.hero-module img {
+	  width: 100%;
+	}
+
+
+.hero-content {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .heading-main {
+    color: var(--alternative-text-color);
+    text-shadow: 0px 1px 10px var(--strong-text-color);
+  }
+}
+
+
+
+
+
+
+/* grids */
+
+@media screen and (min-width: 800px) {
+	.content-area-grid {
+	  display: grid;
+	  grid-template-columns: 48% 48%;
+	  justify-content: space-between;
+	}
+  }
+  
+
+
+
+  /* image gallery */
+  .image-gallery ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  
+	overflow: hidden;
+  
+  }
+  
+  .image-gallery li {
+	float: left; 
+	max-width: 250px;
+	margin: 10px;
+  }
+
+
+
+.image-gallery a:hover img {
+	transform: scale(1.1);
+	filter: unset;
+  }
+  
+  
+  /* animations */
+  
+  @keyframes fadein {
+  
+	0% {
+	  opacity: 0;
+	}
+  
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  
+  main {
+	animation-name: fadein;
+	animation-duration: var(--transition-time);
+  }
+  
+
+
