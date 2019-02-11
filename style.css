@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+/*@import url('https://fonts.googleapis.com/css?family=Oranienbaum');  */
 
 
 
 /* -------------------- VARIABLES */
 
 :root {
-    --font-default: Raleway, sans-serif;
+   /* --font-default: Raleway, sans-serif;
 
-    --font-heading: "Oranienbaum", cursive;
+    --font-heading: "Oranienbaum", cursive;  */
 
       /* Colors */
-  --color-green: #084e3f;
+  /* --color-green: #084e3f;
   --color-red: #ff5b5e;
   --color-deep-blue: #28313b;
   --color-light-grey: #97a4b1;
   --color-mid-blue: #34495e;
-  --color-almost-white: #e8eef4;
+  --color-almost-white: #e8eef4;   */
 
   /* abstract colors out */
-  --main-text-color: var(--color-mid-blue);
+  /* --main-text-color: var(--color-mid-blue);
   --strong-text-color: var(--color-deep-blue);
   --alternative-text-color: var(--color-almost-white);
   --error-color: var(--color-red);
   --border-color: var(--color-light-grey);
 
   --secondary-bg-color: var(--color-almost-white);
-  --alternative-bg-color: var(--color-green);
+  --alternative-bg-color: var(--color-green);   */
 
  /* measurements*/
   --padder: 3%;
@@ -36,13 +36,15 @@
   --area-wide: 1200px;
 
 /* font sizes */
-  --font-size-site-title: 32px;
+  /* --font-size-site-title: 32px;
   --font-size-page-title: 40px;
   --font-size-section-title: 30px;
   --font-size-sub-title: 24px;
-  --font-size-heading-small: 16px;
+  --font-size-heading-small: 16px;  */
 
 }
+
+
 
 @media screen and (min-width: 800px) {
     :root {
@@ -54,6 +56,9 @@
     }
 
   }   
+
+
+  
 /* -------------------- GLOBAL DEFAULTS */
 
 * {
@@ -78,15 +83,57 @@ body {
 }
 
 
-.logo {
+
+
+
+/* -------------------- LAYOUTS */
+
+
+/* ---------------------- HEADER  */
+
+
+
+header {
+    text-align: center;
+}
+
+header .layout-wide {
+	overflow: hidden;
+	margin-bottom: 0;
+  }
+  
+  .logo-wrapper {
+	width: 20%;
+	float: left;
+  }
+  
+
+/* ---------------------- FOOTER  */
+  
+footer {
+	text-align: center;
+	padding-bottom: 0px;
+	
+}
+
+/* -------------------- NAVIGATION */
+
+
+
+/*.logo {
 	background-image : url(pics/whiteroomlogo.jpg);
 	
 	background-position : top center;
 	background-attachment : fixed;
 	background-repeat : no-repeat;
 	height : 100px;
-	width : 100%;
-}
+	width : 100%; 
+}   */
+
+
+/* -------------------- HEADINGS AND TYPE */
+
+
 a {
 	color: #990033;
 	
@@ -111,29 +158,35 @@ a {
 	color:gray;
 }*/
 
+
+
+
 h1 {
 	color: rgb(6, 140, 163);
-	font-family: Oranienbaum, cursive;
+	font-family: Batang, cursive;
 	font-size: 60px;
-	line-height: 1.8;
-	font-weight: lighter
+	line-height: 1em;
+	font-weight: lighter; 
+	font-stretch: condensed;
 	}
 	
 h2{
-	letter-spacing:1em;
+	letter-spacing:.5em;
 	color : #A9A9A9;
+	padding-left: 6em;
 }
 
 p{
-	/*font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size:1.2em;
-	padding:2em;
-	line-height:1.4em;*/
+	padding:1em;
+	line-height:1.4em;
 }
 
 .content{
 	padding-left:2em;
-	font-size:1.2em;
+	padding-right:2em;
+	font-size:1em;
 }
 .specheader{
 	padding-top:1em;
@@ -179,8 +232,41 @@ p{
 }
 
 
+#site-generator p {
+    margin-bottom: 0.5em;
+    float: left;
+}
 
-@media screen and (min-width: 800px) {
+#site-generator p+p {
+    float: right;
+}
+
+
+
+
+#site-generator a {
+	font-weight: bold;
+	
+}
+
+#site-generator {
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 10px;
+    line-height: 1em;
+    padding: 1em 0.5em;
+    text-align: center;
+}
+
+
+
+
+a {
+    color: #990033;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
 	.hero-module {
 	  position: relative;
 	}
@@ -189,6 +275,30 @@ p{
 	  width: 100%;
 	}
 
+
+	.content{
+		padding-left:2em;
+		padding-right:2em;
+		font-size:1em;
+	}
+
+
+
+@media screen and (min-width: 1200px) {
+	.hero-module {
+	  position: relative;
+	}
+  
+	.hero-module img {
+	  width: 100%;
+	}
+
+
+	.content{
+		padding-left:15em;
+		padding-right:15em;
+		font-size:1em;
+	}
 
 .hero-content {
     position: absolute;
@@ -210,6 +320,10 @@ p{
 
 
 
+/* -------------------- FORMS */
+
+
+/* -------------------- MODULES */
 
 
 
@@ -272,3 +386,5 @@ p{
   
 
 
+
+  
