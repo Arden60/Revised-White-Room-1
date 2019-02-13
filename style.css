@@ -170,6 +170,7 @@ h1 {
 	line-height: 1em;
 	font-weight: lighter; 
 	font-stretch: condensed;
+	text-shadow: 2px 2px #c7d1c4;
 	}
 	
 h2{
@@ -177,6 +178,16 @@ h2{
 	color : #A9A9A9;
 	padding-left: 6em;
 }
+
+h3 {
+	color: rgb(6, 140, 163);
+	font-family: Batang, cursive;
+	font-size: 50px;
+	line-height: .5em;
+	font-weight: lighter; 
+	font-stretch: condensed;
+	text-shadow: 2px 2px #c7d1c4;
+	}
 
 p{
 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -206,6 +217,8 @@ p{
 	padding-bottom:1em;
 	
 }
+
+
 
 .image{
 	float: left;
@@ -286,7 +299,7 @@ a {
 
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
 	.hero-module {
 	  position: relative;
 	}
