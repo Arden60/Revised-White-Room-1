@@ -168,7 +168,7 @@ h1 {
 	font-family: Batang, cursive;
 	font-size: 60px;
 	line-height: 1em;
-	font-weight: lighter; 
+	font-weight: normal; 
 	font-stretch: condensed;
 	text-shadow: 2px 2px #c7d1c4;
 	}
@@ -184,7 +184,7 @@ h3 {
 	font-family: Batang, cursive;
 	font-size: 50px;
 	line-height: .5em;
-	font-weight: lighter; 
+	font-weight: normal; 
 	font-stretch: condensed;
 	text-shadow: 2px 2px #c7d1c4;
 	}
