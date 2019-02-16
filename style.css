@@ -141,17 +141,28 @@ a {
 	
 	
 }
+
 .menu {
 	text-align : center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
+
 .menu a{
 	
 	font-weight:bold;
 	font-size:1.2em;
 	color: #990033;
 	text-decoration: none;
+	
 	}
 
+.menu .active {
+	text-decoration: underline;
+}
+
+	
 .menu a:hover{
 	color:black;
 	}
@@ -402,4 +413,4 @@ a {
 
 
 
-  
+
