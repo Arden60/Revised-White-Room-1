@@ -211,6 +211,7 @@ p{
 	padding-left:2em;
 	padding-right:2em;
 	font-size:1em;
+	padding-bottom: 14em;
 }
 .specheader{
 	padding-top:1em;
@@ -260,7 +261,8 @@ p{
 
 
 #site-generator p {
-    margin-bottom: 0.5em;
+		margin-top: 0em;
+    margin-bottom: 0em;
     float: left;
 }
 
