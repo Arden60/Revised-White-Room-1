@@ -214,6 +214,9 @@ p{
 	font-size:1em;
 	padding-bottom: 14em;
 }
+
+/* ---------------------- NAVIGATION  */
+
 .specheader{
 	padding-top:1em;
 	color:#990033;
@@ -259,6 +262,9 @@ p{
 	line-height:1.5em;
 	font-size:1.5em;
 }
+
+
+/* ---------------------- FOOTER  */
 
 
 #site-generator p {
@@ -328,15 +334,16 @@ a {
 		padding-left:15em;
 		padding-right:15em;
 		font-size:1em;
+		padding-bottom: 22em;
 	}
 
 
-.content-block{
-	padding-left:12em;
-	padding-right:4em;
-	padding-bottom: 2em;
+  .content-block{
+	  padding-left:12em;
+	  padding-right:4em;
+	  padding-bottom: 2em;
 
-	font-size:1em;
+	  font-size:1em;
 
 }
 
