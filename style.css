@@ -188,6 +188,7 @@ h2{
 	letter-spacing:.5em;
 	color : #A9A9A9;
 	padding-left: 6em;
+	padding-top: .5em;
 }
 
 h3 {
@@ -328,6 +329,17 @@ a {
 		padding-right:15em;
 		font-size:1em;
 	}
+
+
+.content-block{
+	padding-left:12em;
+	padding-right:4em;
+	padding-bottom: 2em;
+
+	font-size:1em;
+
+}
+
 
 .hero-content {
     position: absolute;
