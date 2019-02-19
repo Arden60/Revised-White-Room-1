@@ -332,21 +332,39 @@ a {
 
 	.content{
 		padding-left:15em;
-		padding-right:15em;
+		padding-right:12em;
 		font-size:1em;
-		padding-bottom: 22em;
+		padding-bottom: 21em;
 	}
 
 
   .content-block{
 	  padding-left:15em;
-	  padding-right:0em;
+	  padding-right:10em;
 	  padding-bottom: 2em;
 
 	  font-size:1em;
 
 }
 
+
+.content-2{
+	padding-left:15em;
+	padding-right:15em;
+	font-size:1em;
+	padding-bottom: 8em;
+}
+
+.content-contact{
+	padding-left:15em;
+	padding-right:15em;
+	font-size:1em;
+	padding-bottom: 18em;
+}
+
+.section{
+	padding-right: 8em
+}
 
 .hero-content {
     position: absolute;
