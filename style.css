@@ -133,15 +133,6 @@ footer {
 }   */
 
 
-/* -------------------- HEADINGS AND TYPE */
-
-
-a {
-	color: #990033;
-	
-	
-}
-
 .menu {
 	text-align : center;
   position: sticky;
@@ -170,6 +161,39 @@ a {
 /*.menu a:visited {
 	color:gray;
 }*/
+
+@media screen and (min-width: 800px) { 
+
+	nav ul {
+		list-style: none;
+		justify-content: center;
+		display: flex;
+	}
+	
+	nav li:after {
+		content: '|';
+	}
+	
+	nav li:last-of-type:after {
+		content: '';
+	}
+	
+	nav li a {
+		padding: 5px 20px;
+	}
+
+}
+
+
+/* -------------------- HEADINGS AND TYPE */
+
+
+a {
+	color: #990033;
+	
+	
+}
+
 
 
 
