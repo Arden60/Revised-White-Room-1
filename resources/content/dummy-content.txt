@@ -255,7 +255,7 @@
 
     <div>
         <!-- Simple audio playback -->
-        <audio src="resources/audio/Friday-Night-Lights-intro.mp3" controls>
+        <audio src="../resources/audio/Friday-Night-Lights-intro.mp3" controls>
             Your browser does not support the
             <code>audio</code> element.
         </audio>
@@ -265,8 +265,8 @@
 
     <h3>Video (no controls - for background)</h3>
     <video autoplay loop class="">
-        <source src="resources/video/Cloud_Surf.mp4" type="video/mp4" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        <source src="resources/video/Cloud_Surf.webm" type="video/webm" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="../resources/video/Cloud_Surf.mp4" type="video/mp4" poster="../resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="../resources/video/Cloud_Surf.webm" type="video/webm" poster="../resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
     </video>
 
 
@@ -276,8 +276,8 @@
 
 
     <video controls class="">
-        <source src="resources/video/Cloud_Surf.mp4" type="video/mp4" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        <source src="resources/video/Cloud_Surf.webm" type="video/webm" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="../resources/video/Cloud_Surf.mp4" type="video/mp4" poster="../resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="../resources/video/Cloud_Surf.webm" type="video/webm" poster="../resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
     </video>
 
 
