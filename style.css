@@ -168,6 +168,7 @@ footer {
 
 .menu ul {
 	list-style: none;
+	padding: 0;
 }
 
 @media screen and (min-width: 800px) { 
