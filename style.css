@@ -154,6 +154,9 @@ footer {
 	text-decoration: underline;
 }
 
+.menu .current{
+	text-decoration: underline;
+}
 	
 .menu a:hover{
 	color:black;
