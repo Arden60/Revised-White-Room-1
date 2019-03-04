@@ -208,7 +208,7 @@ a {
 
 h1 {
 	color: rgb(6, 140, 163);
-	font-family: Oranienbaumg;
+	font-family: Oranienbaumg, serif;
 	font-size: 60px;
 	line-height: 1em;
 	font-weight: normal; 
@@ -225,7 +225,7 @@ h2{
 
 h3 {
 	color: rgb(6, 140, 163);
-	font-family: Oranienbaum;
+	font-family: Oranienbaum, serif;
 	font-size: 50px;
 	line-height: .5em;
 	font-weight: normal; 
