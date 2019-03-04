@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Oranienbaum');  */
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');  
 
 
 
@@ -208,12 +208,12 @@ a {
 
 h1 {
 	color: rgb(6, 140, 163);
-	font-family: Batang, cursive;
+	font-family: Oranienbaumg;
 	font-size: 60px;
 	line-height: 1em;
 	font-weight: normal; 
-	font-stretch: condensed;
-	text-shadow: 2px 2px #c7d1c4;
+	font-stretch: normal;
+	text-shadow: 1px 1px #c7d1c4;
 	}
 	
 h2{
@@ -225,12 +225,12 @@ h2{
 
 h3 {
 	color: rgb(6, 140, 163);
-	font-family: Batang, cursive;
+	font-family: Oranienbaum;
 	font-size: 50px;
 	line-height: .5em;
-	font-weight: n; 
-	font-stretch: condensed;
-	text-shadow: 2px 2px #c7d1c4;
+	font-weight: normal; 
+	font-stretch: normal;
+	text-shadow: 1px 1px #c7d1c4;
 	}
 
 p{
