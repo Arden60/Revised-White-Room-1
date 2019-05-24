@@ -104,10 +104,12 @@ header .layout-wide {
   }
   
   .logo-wrapper {
-	width: 20%;
-	float: left;
+	width: 100%;
+	float: center;
   }
-  
+	
+	
+	
 
 /* ---------------------- FOOTER  */
   
@@ -131,6 +133,8 @@ footer {
 	height : 100px;
 	width : 100%; 
 }   */
+
+
 
 
 .menu {
